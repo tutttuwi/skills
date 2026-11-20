@@ -10,4 +10,4 @@
 ## Model-invoked
 
 - [get-know](./get-know/SKILL.md): 貯めたナレッジを検索し、前にも同じ話があったかをすぐ答える。
-- [know-setup](./know-setup/SKILL.md): ナレッジ系スキルの共通基盤。保存先を聞いて設定ファイルに登録し、リポジトリへの変更を PR/MR で公開する。
+- [setup-know](./setup-know/SKILL.md): ナレッジ系スキルの共通基盤。保存先を聞いて設定ファイルに登録し、リポジトリへの変更を PR/MR で公開する。
