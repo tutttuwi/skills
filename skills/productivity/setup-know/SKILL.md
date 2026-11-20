@@ -1,9 +1,9 @@
 ---
-name: know-setup
+name: setup-know
 description: "Use when put-know, get-know or output-from-know needs to know where knowledge or articles are stored, when the user wants to set or change the storage location, or when file changes in a repository must be published as a PR/MR. Resolves the destination from ~/.config/know/config.json, asks the user and registers it when missing, prepares a local working copy, and creates the branch, push and PR/MR."
 ---
 
-# Know Setup
+# Setup Know
 
 ナレッジ系スキル (`put-know` / `get-know` / `output-from-know`) の共通基盤。次の三つを受け持つ。
 
@@ -13,7 +13,7 @@ description: "Use when put-know, get-know or output-from-know needs to know wher
 
 設定ファイルの形式と保存先の解決規則は [CONFIG.md](./CONFIG.md)、公開の手順は [PUBLISH.md](./PUBLISH.md)。
 
-他のスキルから呼ばれたときは、呼び出し元の用途に合う節だけを実行して、結果を会話に残して呼び出し元の手順へ戻る。ユーザーが直接 `/know-setup` と呼んだときは、現在の設定を表示し、変更したい点を聞く。
+他のスキルから呼ばれたときは、呼び出し元の用途に合う節だけを実行して、結果を会話に残して呼び出し元の手順へ戻る。ユーザーが直接 `/setup-know` と呼んだときは、現在の設定を表示し、変更したい点を聞く。
 
 ## A. 保存先を解決する
 
