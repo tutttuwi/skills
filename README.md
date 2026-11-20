@@ -57,7 +57,7 @@ npm run link -- all                # 全 target
 
 ### User-invoked
 
-(まだありません)
+- [knowledge-capture](./skills/productivity/knowledge-capture/SKILL.md): 会話で得た学びをナレッジとして登録する (リポジトリは PR/MR、ローカルはファイル)
 
 ### Model-invoked
 
