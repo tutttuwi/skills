@@ -1,0 +1,7 @@
+interface:
+  display_name: "My Skill"
+  short_description: "ひとことで言うと何をするか"
+# ユーザー呼び出し専用にする場合は、SKILL.md の frontmatter に
+# `disable-model-invocation: true` を足し、下記も有効にする (両者は必ずセット)。
+# policy:
+#   allow_implicit_invocation: false
