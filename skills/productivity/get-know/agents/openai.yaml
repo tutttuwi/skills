@@ -1,0 +1,3 @@
+interface:
+  display_name: "Get Know"
+  short_description: "貯めたナレッジから、前にも同じ話があったかをすぐ引き出す"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Know Setup"
+  short_description: "ナレッジの保存先を決めて設定し、PR/MRで公開する共通基盤"

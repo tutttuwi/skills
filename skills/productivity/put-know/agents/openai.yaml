@@ -1,5 +1,5 @@
 interface:
-  display_name: "Knowledge Capture"
+  display_name: "Put Know"
   short_description: "会話で得た学びをナレッジとして登録する (リポジトリはPR/MR、ローカルはファイル)"
 policy:
   allow_implicit_invocation: false

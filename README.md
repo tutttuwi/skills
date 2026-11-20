@@ -57,11 +57,13 @@ npm run link -- all                # 全 target
 
 ### User-invoked
 
-- [knowledge-capture](./skills/productivity/knowledge-capture/SKILL.md): 会話で得た学びをナレッジとして登録する (リポジトリは PR/MR、ローカルはファイル)
+- [put-know](./skills/productivity/put-know/SKILL.md): 会話で得た学びをナレッジとして登録する (リポジトリは PR/MR、ローカルはファイル)
+- [output-from-know](./skills/productivity/output-from-know/SKILL.md): ナレッジから記事を生成し、指定リポジトリのディレクトリへ PR/MR で出力する
 
 ### Model-invoked
 
-(まだありません)
+- [get-know](./skills/productivity/get-know/SKILL.md): 貯めたナレッジを検索し、前にも同じ話があったかをすぐ答える
+- [know-setup](./skills/productivity/know-setup/SKILL.md): ナレッジ系スキルの共通基盤 (保存先の設定、PR/MR での公開)
 
 ## スクリプト
 

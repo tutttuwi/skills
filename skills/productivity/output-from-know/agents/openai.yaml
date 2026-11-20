@@ -1,0 +1,5 @@
+interface:
+  display_name: "Output From Know"
+  short_description: "ナレッジから記事を生成し、指定リポジトリのディレクトリへPR/MRで出力する"
+policy:
+  allow_implicit_invocation: false
