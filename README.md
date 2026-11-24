@@ -63,7 +63,7 @@ npm run link -- all                # 全 target
 ### Model-invoked
 
 - [get-know](./skills/productivity/get-know/SKILL.md): 貯めたナレッジを検索し、前にも同じ話があったかをすぐ答える
-- [know-setup](./skills/productivity/know-setup/SKILL.md): ナレッジ系スキルの共通基盤 (保存先の設定、PR/MR での公開)
+- [setup-know](./skills/productivity/setup-know/SKILL.md): ナレッジ系スキルの共通基盤 (保存先の設定、PR/MR での公開)
 
 ## スクリプト
 
