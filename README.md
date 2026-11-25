@@ -64,6 +64,7 @@ npm run link -- all                # 全 target
 
 - [get-know](./skills/productivity/get-know/SKILL.md): 貯めたナレッジを検索し、前にも同じ話があったかをすぐ答える
 - [setup-know](./skills/productivity/setup-know/SKILL.md): ナレッジ系スキルの共通基盤 (保存先の設定、PR/MR での公開)
+- [marp-slides](./skills/productivity/marp-slides/SKILL.md): 資料の目的・テーマ・レイアウトを組み合わせ、Marp スライドを作成・検証する
 
 ## スクリプト
 

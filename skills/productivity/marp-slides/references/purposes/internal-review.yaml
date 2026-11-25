@@ -1,0 +1,30 @@
+id: internal-review
+name: 社内レビュー
+theme: monochrome
+audience: レビュー担当者・関係部署
+style:
+  information_density: high
+  visual_density: medium
+  tone: 実務的
+  typography: medium-small
+  text_amount: 論点と根拠を参照可能に
+narrative:
+  - 背景
+  - 課題
+  - 選択肢
+  - 判断根拠
+  - レビュー事項
+preferred_layouts:
+  - N03
+  - B04
+  - M06
+  - B09
+  - N09
+preferred_renderers:
+  - markdown
+  - html
+  - css
+  - mermaid
+avoid:
+  - 判断材料の省略
+  - レビュー依頼の曖昧さ

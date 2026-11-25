@@ -1,0 +1,38 @@
+id: K01
+name: 用語・定義・具体例
+category: education
+purpose:
+  - 用語を定義して一つの具体例に結び付ける
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 用語を定義して一つの具体例に結び付ける
+    slots: 学習対象、説明、例や確認事項
+visual:
+  emphasis: 用語を定義して一つの具体例に結び付ける
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 用語を定義して一つの具体例に結び付ける
+  unsuitable_for:
+    - 既習者が判断に必要な結論だけを確認する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: friendly

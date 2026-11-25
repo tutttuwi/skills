@@ -1,0 +1,24 @@
+id: plum
+name: プラム × ピンク
+light:
+  paper: "#faf6fd"
+  surface: "#ffffff"
+  ink: "#281833"
+  muted: "#58456a"
+  accent: "#65349a"
+  secondary: "#9c2053"
+  accent_surface: "#f1e6fa"
+  line: "#d8c8e2"
+  high_accent: "#46206f"
+  high_secondary: "#701235"
+dark:
+  paper: "#180e25"
+  surface: "#261936"
+  ink: "#fcf5ff"
+  muted: "#d0bddc"
+  accent: "#d2afff"
+  secondary: "#ff9fc7"
+  accent_surface: "#342247"
+  line: "#635074"
+  high_accent: "#e6ceff"
+  high_secondary: "#ffc4dc"

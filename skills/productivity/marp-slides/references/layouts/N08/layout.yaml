@@ -1,0 +1,38 @@
+id: N08
+name: エグゼクティブサマリー
+category: story
+purpose:
+  - 結論、根拠、決めてほしいことを一枚にまとめる
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 結論、根拠、決めてほしいことを一枚にまとめる
+    slots: 主張とそれを支える情報を読み順に配置
+visual:
+  emphasis: 結論、根拠、決めてほしいことを一枚にまとめる
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 結論、根拠、決めてほしいことを一枚にまとめる
+  unsuitable_for:
+    - 仕様・データを検索や照合の目的で一覧化する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

@@ -1,0 +1,13 @@
+/* @theme dark-tech */
+@import 'personal-base';
+
+section {
+  --paper: #101a28;
+  --ink: #f0f6ff;
+  --muted: #bacbe2;
+  --accent: #6be8cf;
+  --surface: #19283c;
+  --line: #506987;
+  --radius: 10px;
+}
+section { background: radial-gradient(ellipse at 100% 0%, #223955, transparent 68%), var(--paper); }

@@ -1,0 +1,43 @@
+section {
+  background: var(--paper);
+  color: var(--ink);
+  padding: 52px 60px;
+}
+section.hero { background: var(--paper); }
+section.brand-cover {
+  justify-content: center;
+  background: var(--brand-accent-surface);
+}
+section.brand-cover h1 {
+  max-width: 1080px;
+  font-size: 64px;
+  line-height: 1.12;
+}
+section.brand-cover p { max-width: 960px; }
+section.brand-cover[data-size="4:3"] h1 { font-size: 54px; }
+section.brand-cover .label, section .accent-card .label { margin-bottom: 12px; }
+section::after { color: var(--muted); }
+section pre, section code { background: var(--surface); color: var(--ink); }
+section .accent-card {
+  padding: 24px 27px;
+  border-inline-start: 5px solid var(--accent);
+  background: var(--surface);
+}
+section .accent-card.secondary { border-inline-start-color: var(--brand-secondary); }
+section .accent-card.secondary .label { color: var(--brand-secondary); }
+section .brand-focus {
+  padding: 18px 22px;
+  border-inline-start: 5px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--brand-accent-surface);
+  color: var(--ink);
+}
+section .brand-kpi {
+  color: var(--accent);
+  font-size: 62px;
+  line-height: 1.05;
+  font-variant-numeric: tabular-nums;
+  margin: 0 0 12px;
+}
+section table tr, section table td { background: var(--paper); color: var(--ink); }
+section table th { background: var(--surface); color: var(--ink); }

@@ -1,0 +1,18 @@
+id: technical-brief
+name: 技術解説・社内共有
+pages:
+  - role: 結論
+    layout: H03
+    emphasis: 読者が持ち帰る判断を一文で示す
+  - role: 状況・現象
+    layout: F10
+    emphasis: 時系列や登場要素を図で見せる
+  - role: 判断
+    layout: F04
+    emphasis: 条件と、それに対応する行動を示す
+  - role: 実装例
+    layout: E08
+    emphasis: コードや画面に対応する仕組みを説明する
+  - role: 確認
+    layout: N10
+    emphasis: 判断や設計が正しいと確認できる観点を揃える

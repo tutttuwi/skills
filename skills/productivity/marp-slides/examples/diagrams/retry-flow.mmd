@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant C as クライアント
+    participant A as 申請API
+    participant D as データストア
+    C->>A: 初回送信（キー K）
+    A->>D: キー K と結果を保存
+    C->>A: 再送（同じキー K）
+    A->>D: キー K の結果を照会
+    D-->>A: 保存済みの申請番号
+    A-->>C: 同じ申請番号を返す

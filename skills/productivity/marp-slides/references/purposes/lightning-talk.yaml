@@ -1,0 +1,29 @@
+id: lightning-talk
+name: LT・ライトニングトーク
+theme: bold
+audience: 短時間で新しい話題に触れる聴衆
+style:
+  information_density: low
+  visual_density: high
+  tone: カジュアル
+  typography: extra-large
+  text_amount: 短いフレーズ
+narrative:
+  - 問い
+  - 意外な発見
+  - 具体例
+  - 持ち帰り
+preferred_layouts:
+  - H06
+  - H03
+  - H04
+  - H02
+  - N10
+preferred_renderers:
+  - markdown
+  - css
+  - svg
+  - image
+avoid:
+  - 長い段落
+  - 詳細な比較表

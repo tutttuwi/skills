@@ -1,0 +1,38 @@
+id: K02
+name: 概念・実例分割
+category: education
+purpose:
+  - 抽象的な仕組みと具体的な使い方を対応させる
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 抽象的な仕組みと具体的な使い方を対応させる
+    slots: 学習対象、説明、例や確認事項
+visual:
+  emphasis: 抽象的な仕組みと具体的な使い方を対応させる
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 抽象的な仕組みと具体的な使い方を対応させる
+  unsuitable_for:
+    - 既習者が判断に必要な結論だけを確認する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: friendly

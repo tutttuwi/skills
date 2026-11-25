@@ -1,0 +1,39 @@
+id: P05
+name: UI改善比較
+category: product
+purpose:
+  - 同じ操作の改善前後を並べる
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 同じ操作の改善前後を並べる
+    slots: 実物の画像またはモックと操作上の説明
+visual:
+  emphasis: 同じ操作の改善前後を並べる
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - image
+selection_rules:
+  suitable_for:
+    - 同じ操作の改善前後を並べる
+  unsuitable_for:
+    - 紹介する画面や利用シーンが判断材料にならない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: editorial

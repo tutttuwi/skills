@@ -1,0 +1,41 @@
+id: E03
+name: C4コンテナ
+category: engineering
+purpose:
+  - アプリとデータストアの内部構成を示す
+layout:
+  aspect_ratio: 16:9
+  columns: 3
+  arrangement: 境界の中に3要素を並べる
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: アプリとデータストアの内部構成を示す
+    slots: 技術要素、関係・責務、必要に応じた境界
+visual:
+  emphasis: アプリとデータストアの内部構成を示す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+  - mermaid
+  - d2
+selection_rules:
+  suitable_for:
+    - アプリとデータストアの内部構成を示す
+  unsuitable_for:
+    - 技術詳細を必要としない聴衆へ価値だけを伝える
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: dark-tech

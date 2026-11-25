@@ -1,0 +1,28 @@
+presentation:
+  purpose: technical-explainer
+  theme: modern
+  audience: ソフトウェアエンジニア
+  language: ja
+  aspect_ratio: "16:9"
+  style:
+    information_density: medium
+    visual_density: high
+    tone: professional
+    typography: large
+    text_amount: concise
+  preferred_layouts:
+    - K02
+    - E01
+    - F10
+    - E08
+    - N10
+  preferred_renderers:
+    - mermaid
+    - d2
+    - svg
+    - html
+    - css
+  avoid:
+    - 長い段落
+    - 無関係な写真
+    - 過剰な文字縮小

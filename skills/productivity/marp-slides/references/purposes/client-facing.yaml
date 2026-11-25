@@ -1,0 +1,31 @@
+id: client-facing
+name: お客様説明・提案
+theme: corporate
+audience: 導入を検討するお客様
+style:
+  information_density: medium
+  visual_density: high
+  tone: フォーマル
+  typography: medium
+  text_amount: 課題と提供価値を平易に
+narrative:
+  - お客様の課題
+  - 提案
+  - 実際の利用
+  - 導入計画
+  - 次の協議
+preferred_layouts:
+  - N02
+  - P02
+  - P11
+  - B06
+  - T07
+  - N09
+preferred_renderers:
+  - image
+  - html
+  - css
+  - svg
+avoid:
+  - 社内用語
+  - 未確定の約束

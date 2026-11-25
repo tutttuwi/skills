@@ -1,0 +1,10 @@
+presentation:
+  purpose: technical-explainer
+  objective: 新人エンジニアが、APIの再試行で二重処理が起きる条件と防ぎ方を説明できる
+  audience: 新人エンジニア
+  preset: technical-brief
+  brand: cobalt
+  mode: light
+  contrast: high
+  language: ja
+  aspect_ratio: "16:9"

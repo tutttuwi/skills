@@ -1,0 +1,30 @@
+id: status-report
+name: 進捗・活動報告
+theme: modern
+audience: プロジェクト関係者
+style:
+  information_density: medium-high
+  visual_density: high
+  tone: 客観的
+  typography: medium
+  text_amount: 前回からの変化と対応
+narrative:
+  - 期間と概要
+  - KPI
+  - 進捗
+  - マイルストーン
+  - リスクと次の対応
+preferred_layouts:
+  - D02
+  - D18
+  - T10
+  - M04
+  - N09
+preferred_renderers:
+  - html
+  - css
+  - vega-lite
+  - svg
+avoid:
+  - 基準日の欠落
+  - 色だけの状態区分

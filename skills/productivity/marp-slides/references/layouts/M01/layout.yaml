@@ -1,0 +1,38 @@
+id: M01
+name: 2×2マトリクス
+category: decision
+purpose:
+  - 二つの軸で四象限に分類する
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 二つの軸で四象限に分類する
+    slots: 論点、評価基準と各項目の判断根拠
+visual:
+  emphasis: 二つの軸で四象限に分類する
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 二つの軸で四象限に分類する
+  unsuitable_for:
+    - 判断基準や項目分類の根拠が不明
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

@@ -1,0 +1,13 @@
+/* @theme modern */
+@import 'personal-base';
+
+section {
+  --paper: #f5f7fe;
+  --ink: #192242;
+  --muted: #505d79;
+  --accent: #4938b3;
+  --surface: #fff;
+  --line: #d5daf0;
+  --radius: 20px;
+}
+section .card { box-shadow: 0 6px 18px #19224212; }

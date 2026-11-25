@@ -1,0 +1,39 @@
+id: P11
+name: 利用シナリオ
+category: product
+purpose:
+  - 利用者が目的を達成する場面を順に追う
+layout:
+  aspect_ratio: 16:9
+  columns: 3
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 利用者が目的を達成する場面を順に追う
+    slots: 実物の画像またはモックと操作上の説明
+visual:
+  emphasis: 利用者が目的を達成する場面を順に追う
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - image
+selection_rules:
+  suitable_for:
+    - 利用者が目的を達成する場面を順に追う
+  unsuitable_for:
+    - 紹介する画面や利用シーンが判断材料にならない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: editorial

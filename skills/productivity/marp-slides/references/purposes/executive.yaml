@@ -1,0 +1,31 @@
+id: executive
+name: 経営層・意思決定
+theme: minimal
+audience: 経営層・意思決定者
+style:
+  information_density: medium
+  visual_density: medium
+  tone: 簡潔
+  typography: large
+  text_amount: 判断に必要な論点を簡潔に
+narrative:
+  - 結論と判断事項
+  - 経営インパクト
+  - KPI
+  - 費用とリスク
+  - 次のアクション
+preferred_layouts:
+  - N08
+  - D01
+  - D18
+  - M04
+  - B06
+  - N09
+preferred_renderers:
+  - markdown
+  - html
+  - css
+  - vega-lite
+avoid:
+  - 判断に使わない詳細
+  - 技術用語の羅列

@@ -1,0 +1,38 @@
+id: H03
+name: ビッグタイポグラフィ
+category: highlight
+purpose:
+  - 短い核心メッセージを文字だけで印象づける
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 縦横中央に主メッセージを配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 短い核心メッセージを文字だけで印象づける
+    slots: 中心メッセージと、必要に応じて補足または出典
+visual:
+  emphasis: 短い核心メッセージを文字だけで印象づける
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 短い核心メッセージを文字だけで印象づける
+  unsuitable_for:
+    - 一枚で複数の論点や詳細な根拠を読む必要がある
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: minimal

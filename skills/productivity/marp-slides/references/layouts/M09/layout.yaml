@@ -1,0 +1,39 @@
+id: M09
+name: 魚骨図
+category: decision
+purpose:
+  - 結果に関わる原因をカテゴリ単位で整理する
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 結果に関わる原因をカテゴリ単位で整理する
+    slots: 論点、評価基準と各項目の判断根拠
+visual:
+  emphasis: 結果に関わる原因をカテゴリ単位で整理する
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+selection_rules:
+  suitable_for:
+    - 結果に関わる原因をカテゴリ単位で整理する
+  unsuitable_for:
+    - 判断基準や項目分類の根拠が不明
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

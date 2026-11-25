@@ -1,0 +1,39 @@
+id: N02
+name: 課題・解決策・効果
+category: story
+purpose:
+  - 施策が何をどのように改善するかを示す
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 施策が何をどのように改善するかを示す
+    slots: 主張とそれを支える情報を読み順に配置
+visual:
+  emphasis: 施策が何をどのように改善するかを示す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+selection_rules:
+  suitable_for:
+    - 施策が何をどのように改善するかを示す
+  unsuitable_for:
+    - 仕様・データを検索や照合の目的で一覧化する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

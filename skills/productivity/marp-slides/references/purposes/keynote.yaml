@@ -1,0 +1,28 @@
+id: keynote
+name: キーノート
+theme: minimal
+audience: 製品発表やコンセプト発表の聴衆
+style:
+  information_density: very-low
+  visual_density: high
+  tone: 端的・洗練
+  typography: extra-large
+  text_amount: 一文または数語
+narrative:
+  - 印象的な導入
+  - 価値の提示
+  - 実物や体験
+  - 要点
+preferred_layouts:
+  - H01
+  - H02
+  - H03
+  - H04
+  - P01
+preferred_renderers:
+  - image
+  - svg
+  - css
+avoid:
+  - 細かな脚注
+  - 密な表

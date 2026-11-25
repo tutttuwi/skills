@@ -1,0 +1,38 @@
+id: L12
+name: 段差レイアウト
+category: basic
+purpose:
+  - 各要素の独立性を保ちながら視線を移す
+layout:
+  aspect_ratio: 16:9
+  columns: 4
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 各要素の独立性を保ちながら視線を移す
+    slots: 見出しと各領域の本文または図版の対応
+visual:
+  emphasis: 各要素の独立性を保ちながら視線を移す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 各要素の独立性を保ちながら視線を移す
+  unsuitable_for:
+    - 主要情報の量や関係が枠の数・大きさと合わない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

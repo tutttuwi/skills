@@ -1,0 +1,38 @@
+id: N09
+name: ネクストアクション
+category: story
+purpose:
+  - 行動、担当者、期限を明示する
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に比較表
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 行動、担当者、期限を明示する
+    slots: 主張とそれを支える情報を読み順に配置
+visual:
+  emphasis: 行動、担当者、期限を明示する
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 行動、担当者、期限を明示する
+  unsuitable_for:
+    - 仕様・データを検索や照合の目的で一覧化する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

@@ -1,0 +1,13 @@
+/* @theme bold */
+@import 'personal-base';
+
+section {
+  --paper: #251836;
+  --ink: #fff9ed;
+  --muted: #e2d5f2;
+  --accent: #ffee77;
+  --surface: #35254c;
+  --line: #a994c5;
+  --radius: 0;
+}
+section h2 { border-left: 7px solid var(--accent); padding-left: 16px; } section.hero h1 { font-weight: 900; }

@@ -1,0 +1,32 @@
+id: pitch-deck
+name: ピッチデック
+theme: modern
+audience: 投資家・パートナー候補
+style:
+  information_density: low-medium
+  visual_density: high
+  tone: 説得的
+  typography: large
+  text_amount: 主張と証拠を一組にする
+narrative:
+  - 課題
+  - 解決策
+  - 市場・利用実績
+  - 優位性
+  - 事業戦略
+  - 依頼事項
+preferred_layouts:
+  - N02
+  - H04
+  - D05
+  - B06
+  - T04
+  - N09
+preferred_renderers:
+  - html
+  - css
+  - vega-lite
+  - image
+avoid:
+  - 出典のない市場規模
+  - 根拠のない成長率

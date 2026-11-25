@@ -1,0 +1,38 @@
+id: N05
+name: ストーリーボード
+category: story
+purpose:
+  - 利用者の行動をコマで追う
+layout:
+  aspect_ratio: 16:9
+  columns: 3
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 利用者の行動をコマで追う
+    slots: 主張とそれを支える情報を読み順に配置
+visual:
+  emphasis: 利用者の行動をコマで追う
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 利用者の行動をコマで追う
+  unsuitable_for:
+    - 仕様・データを検索や照合の目的で一覧化する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

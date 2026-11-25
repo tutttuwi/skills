@@ -1,0 +1,40 @@
+id: D05
+name: 折れ線グラフ
+category: data
+purpose:
+  - 時系列の動きを見る
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 時系列の動きを見る
+    slots: 対象、値、単位、必要に応じた凡例と出典
+visual:
+  emphasis: 時系列の動きを見る
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+  - vega-lite
+selection_rules:
+  suitable_for:
+    - 時系列の動きを見る
+  unsuitable_for:
+    - 対象、単位、値の定義を確認できない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: scientific

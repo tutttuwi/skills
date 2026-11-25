@@ -1,0 +1,13 @@
+/* @theme scientific */
+@import 'personal-base';
+
+section {
+  --paper: #fff;
+  --ink: #132c32;
+  --muted: #455b60;
+  --accent: #075d66;
+  --surface: #eef6f6;
+  --line: #adbfc2;
+  --radius: 0;
+}
+section { font-variant-numeric: tabular-nums; } section h2 { border-bottom: 1px solid var(--line); padding-bottom: 12px; }

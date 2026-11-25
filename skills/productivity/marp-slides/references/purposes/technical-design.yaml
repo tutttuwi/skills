@@ -1,0 +1,34 @@
+id: technical-design
+name: 開発ドキュメント・設計書
+theme: scientific
+audience: 開発者・設計レビュー担当
+style:
+  information_density: high
+  visual_density: high
+  tone: 技術的・正確
+  typography: medium-small
+  text_amount: 参照しやすい仕様と短い説明
+narrative:
+  - 背景と制約
+  - 全体構成
+  - 境界と責務
+  - モデルと処理
+  - 例外
+  - 判断事項
+preferred_layouts:
+  - E01
+  - E03
+  - E06
+  - F10
+  - E13
+  - E16
+  - E21
+preferred_renderers:
+  - d2
+  - mermaid
+  - plantuml
+  - graphviz
+  - markdown
+avoid:
+  - 未確定仕様の断定
+  - 境界の省略

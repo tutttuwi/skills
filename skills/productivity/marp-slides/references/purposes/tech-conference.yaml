@@ -1,0 +1,31 @@
+id: tech-conference
+name: テックカンファレンス
+theme: dark-tech
+audience: 技術カンファレンスの参加者
+style:
+  information_density: medium
+  visual_density: high
+  tone: 技術的・モダン
+  typography: large
+  text_amount: 短文とコード
+narrative:
+  - 技術課題
+  - 設計判断
+  - 実装
+  - 実測結果
+  - 学び
+preferred_layouts:
+  - H03
+  - E01
+  - F10
+  - E08
+  - D05
+  - N10
+preferred_renderers:
+  - mermaid
+  - d2
+  - svg
+  - shiki
+avoid:
+  - 長いコード
+  - 説明のないロゴ

@@ -1,0 +1,39 @@
+id: L07
+name: 2×3グリッド
+category: basic
+purpose:
+  - 六つの機能や特徴を俯瞰する
+layout:
+  aspect_ratio: 16:9
+  columns: 3
+  arrangement: 2×3
+  padding: 56px
+  gap: 24px
+  rows: 2
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 六つの機能や特徴を俯瞰する
+    slots: 見出しと各領域の本文または図版の対応
+visual:
+  emphasis: 六つの機能や特徴を俯瞰する
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 六つの機能や特徴を俯瞰する
+  unsuitable_for:
+    - 主要情報の量や関係が枠の数・大きさと合わない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

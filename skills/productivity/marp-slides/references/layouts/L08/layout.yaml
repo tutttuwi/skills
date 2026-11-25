@@ -1,0 +1,38 @@
+id: L08
+name: Bento Grid
+category: basic
+purpose:
+  - 面積の大小で情報の優先順位を示す
+layout:
+  aspect_ratio: 16:9
+  columns: 3
+  arrangement: 主枠2×2＋副枠2つ
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 面積の大小で情報の優先順位を示す
+    slots: 見出しと各領域の本文または図版の対応
+visual:
+  emphasis: 面積の大小で情報の優先順位を示す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 面積の大小で情報の優先順位を示す
+  unsuitable_for:
+    - 主要情報の量や関係が枠の数・大きさと合わない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

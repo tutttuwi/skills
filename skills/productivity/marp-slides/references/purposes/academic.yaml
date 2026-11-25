@@ -1,0 +1,32 @@
+id: academic
+name: 研究・学術発表
+theme: scientific
+audience: 研究者・査読者・専門分野の学生
+style:
+  information_density: high
+  visual_density: high
+  tone: 学術的
+  typography: medium-small
+  text_amount: 再現に必要な詳細と引用
+narrative:
+  - 背景・研究課題
+  - 仮説
+  - 方法
+  - 結果
+  - 考察と限界
+  - 参考文献
+preferred_layouts:
+  - M10
+  - K14
+  - D05
+  - D08
+  - B04
+  - N06
+preferred_renderers:
+  - katex
+  - vega-lite
+  - svg
+  - markdown
+avoid:
+  - 不確実性や母数の省略
+  - 引用の欠落

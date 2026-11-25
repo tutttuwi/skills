@@ -1,0 +1,58 @@
+id: B01
+name: Before / After
+category: comparison
+purpose:
+  - 変更前後の違いを同じ粒度で見せる
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 50:50（中央に矢印）
+  padding: 56px
+  gap: 14px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 1
+  content: 変更前後の違いを同じ粒度で見せる
+  left:
+    label: Before
+    content:
+      - 変更前の画像または図
+      - 変更前の説明
+  center:
+    type: arrow
+    direction: right
+  right:
+    label: After
+    content:
+      - 変更後の画像または図
+      - 変更後の説明
+  footer:
+    type: takeaway
+    required: false
+visual:
+  theme_aware: true
+  before_tone: muted
+  after_tone: accent
+  emphasis: right
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+  max_bullets_per_column: 3
+  max_description_lines: 3
+renderers:
+  - html
+  - css
+  - svg
+  - mermaid
+selection_rules:
+  suitable_for:
+    - 変更前後の違いを同じ粒度で見せる
+  unsuitable_for:
+    - 3つ以上の選択肢の比較
+    - 複雑な時系列
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

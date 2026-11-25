@@ -1,0 +1,29 @@
+id: infographic
+name: インフォグラフィック・図解
+theme: hand-drawn
+audience: 短時間で構造や流れを理解したい読者
+style:
+  information_density: low-medium
+  visual_density: very-high
+  tone: 直感的
+  typography: large
+  text_amount: ラベルと短い注釈
+narrative:
+  - 要点
+  - 中心となる図
+  - 読み方または出典
+preferred_layouts:
+  - K04
+  - H04
+  - S05
+  - S08
+  - F05
+  - D13
+preferred_renderers:
+  - svg
+  - lucide
+  - excalidraw
+  - vega-lite
+avoid:
+  - 装飾だけのアイコン
+  - 色だけの区別

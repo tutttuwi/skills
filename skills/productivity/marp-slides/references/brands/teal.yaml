@@ -1,0 +1,24 @@
+id: teal
+name: ティール × バイオレット
+light:
+  paper: "#f2f9f7"
+  surface: "#ffffff"
+  ink: "#142b29"
+  muted: "#405a57"
+  accent: "#006455"
+  secondary: "#6233a0"
+  accent_surface: "#e0f4ef"
+  line: "#bccfc9"
+  high_accent: "#00483e"
+  high_secondary: "#461b7a"
+dark:
+  paper: "#081b1b"
+  surface: "#132b2c"
+  ink: "#effdfa"
+  muted: "#b0cdc8"
+  accent: "#77e5cd"
+  secondary: "#d4b7ff"
+  accent_surface: "#163b3a"
+  line: "#426260"
+  high_accent: "#a6f5e4"
+  high_secondary: "#e5ccff"

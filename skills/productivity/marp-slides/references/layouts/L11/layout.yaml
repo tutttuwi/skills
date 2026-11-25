@@ -1,0 +1,39 @@
+id: L11
+name: 非対称レイアウト
+category: basic
+purpose:
+  - 対等でない画像と本文に読み順を作る
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 画像側を広く、右に段差
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 対等でない画像と本文に読み順を作る
+    slots: 見出しと各領域の本文または図版の対応
+visual:
+  emphasis: 対等でない画像と本文に読み順を作る
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+selection_rules:
+  suitable_for:
+    - 対等でない画像と本文に読み順を作る
+  unsuitable_for:
+    - 主要情報の量や関係が枠の数・大きさと合わない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

@@ -1,0 +1,13 @@
+/* @theme hand-drawn */
+@import 'personal-base';
+
+section {
+  --paper: #fffaed;
+  --ink: #302c3b;
+  --muted: #595263;
+  --accent: #795121;
+  --surface: #fffdf7;
+  --line: #927c61;
+  --radius: 15px 22px 14px 19px;
+}
+section .card { border-style: dashed; } section h2 { text-decoration: underline wavy var(--line); text-underline-offset: 8px; }

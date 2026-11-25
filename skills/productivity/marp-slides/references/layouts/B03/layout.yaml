@@ -1,0 +1,38 @@
+id: B03
+name: メリット・デメリット
+category: comparison
+purpose:
+  - 一つの選択肢を長所と短所から検討する
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 一つの選択肢を長所と短所から検討する
+    slots: 比較見出し、対比する対象、揃えた軸と単位
+visual:
+  emphasis: 一つの選択肢を長所と短所から検討する
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 一つの選択肢を長所と短所から検討する
+  unsuitable_for:
+    - 意味や粒度の異なる指標をそのまま比較する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

@@ -1,0 +1,38 @@
+id: L10
+name: 中央集中型
+category: basic
+purpose:
+  - 単独のメッセージや図に視線を集める
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 縦横中央に主メッセージを配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 単独のメッセージや図に視線を集める
+    slots: 見出しと各領域の本文または図版の対応
+visual:
+  emphasis: 単独のメッセージや図に視線を集める
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 単独のメッセージや図に視線を集める
+  unsuitable_for:
+    - 主要情報の量や関係が枠の数・大きさと合わない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

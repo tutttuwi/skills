@@ -1,0 +1,39 @@
+id: C01
+name: アイコン付きカード
+category: cards
+purpose:
+  - 機能を識別できる図柄と短文にする
+layout:
+  aspect_ratio: 16:9
+  columns: 3
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 機能を識別できる図柄と短文にする
+    slots: 区別できるラベルと一定の粒度の説明
+visual:
+  emphasis: 機能を識別できる図柄と短文にする
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+selection_rules:
+  suitable_for:
+    - 機能を識別できる図柄と短文にする
+  unsuitable_for:
+    - 項目の間の因果や順序を主張したい
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

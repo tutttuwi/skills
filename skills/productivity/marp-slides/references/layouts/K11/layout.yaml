@@ -1,0 +1,38 @@
+id: K11
+name: ケーススタディ
+category: education
+purpose:
+  - 状況、対応、結果、教訓を一連で示す
+layout:
+  aspect_ratio: 16:9
+  columns: 4
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 状況、対応、結果、教訓を一連で示す
+    slots: 学習対象、説明、例や確認事項
+visual:
+  emphasis: 状況、対応、結果、教訓を一連で示す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 状況、対応、結果、教訓を一連で示す
+  unsuitable_for:
+    - 既習者が判断に必要な結論だけを確認する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: friendly

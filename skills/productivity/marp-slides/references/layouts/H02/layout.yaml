@@ -1,0 +1,39 @@
+id: H02
+name: 画像・テキスト分割
+category: highlight
+purpose:
+  - 大きな図版と短い価値訴求を対応させる
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 大きな図版と短い価値訴求を対応させる
+    slots: 中心メッセージと、必要に応じて補足または出典
+visual:
+  emphasis: 大きな図版と短い価値訴求を対応させる
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+selection_rules:
+  suitable_for:
+    - 大きな図版と短い価値訴求を対応させる
+  unsuitable_for:
+    - 一枚で複数の論点や詳細な根拠を読む必要がある
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: minimal

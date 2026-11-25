@@ -1,0 +1,38 @@
+id: B04
+name: 多項目比較表
+category: comparison
+purpose:
+  - 複数案を同じ評価軸で比較する
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に比較表
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 複数案を同じ評価軸で比較する
+    slots: 比較見出し、対比する対象、揃えた軸と単位
+visual:
+  emphasis: 複数案を同じ評価軸で比較する
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 複数案を同じ評価軸で比較する
+  unsuitable_for:
+    - 意味や粒度の異なる指標をそのまま比較する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

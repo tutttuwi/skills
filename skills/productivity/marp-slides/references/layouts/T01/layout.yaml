@@ -1,0 +1,38 @@
+id: T01
+name: 水平タイムライン
+category: timeline
+purpose:
+  - 日付と出来事を左から右に追う
+layout:
+  aspect_ratio: 16:9
+  columns: 3
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 日付と出来事を左から右に追う
+    slots: 日時・期間と対応するイベントや成果物
+visual:
+  emphasis: 日付と出来事を左から右に追う
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 日付と出来事を左から右に追う
+  unsuitable_for:
+    - 時期や順序が不明で相互関係の説明だけが必要
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

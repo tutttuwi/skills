@@ -1,0 +1,41 @@
+id: E02
+name: C4コンテキスト
+category: engineering
+purpose:
+  - 利用者・対象システム・外部サービスの関係を示す
+layout:
+  aspect_ratio: 16:9
+  columns: 3
+  arrangement: 対象システムを中央に配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 利用者・対象システム・外部サービスの関係を示す
+    slots: 技術要素、関係・責務、必要に応じた境界
+visual:
+  emphasis: 利用者・対象システム・外部サービスの関係を示す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+  - mermaid
+  - d2
+selection_rules:
+  suitable_for:
+    - 利用者・対象システム・外部サービスの関係を示す
+  unsuitable_for:
+    - 技術詳細を必要としない聴衆へ価値だけを伝える
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: dark-tech

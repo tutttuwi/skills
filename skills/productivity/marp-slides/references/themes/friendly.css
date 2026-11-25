@@ -1,0 +1,13 @@
+/* @theme friendly */
+@import 'personal-base';
+
+section {
+  --paper: #fff6e9;
+  --ink: #37263c;
+  --muted: #68516e;
+  --accent: #763284;
+  --surface: #fffdfa;
+  --line: #d4bdd8;
+  --radius: 25px;
+}
+section.hero { background: radial-gradient(ellipse at 90% 10%, #f3dcf0, transparent 70%), var(--paper); }

@@ -1,0 +1,31 @@
+id: educational
+name: 教育・研修・学習教材
+theme: friendly
+audience: 初学者・研修受講者
+style:
+  information_density: medium
+  visual_density: high
+  tone: 平易
+  typography: large
+  text_amount: 短い定義と具体例
+narrative:
+  - 学習目標
+  - 概念と実例
+  - 練習
+  - 解答と解説
+  - 復習
+preferred_layouts:
+  - K01
+  - K02
+  - K03
+  - K05
+  - K06
+  - K15
+preferred_renderers:
+  - svg
+  - mermaid
+  - katex
+  - excalidraw
+avoid:
+  - 未定義の専門用語
+  - 解説のない設問

@@ -1,0 +1,40 @@
+id: F07
+name: 並列処理フロー
+category: process
+purpose:
+  - 同時に進行する処理を示す
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 同時に進行する処理を示す
+    slots: 工程・判定・状態のノードと接続方向
+visual:
+  emphasis: 同時に進行する処理を示す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+  - mermaid
+selection_rules:
+  suitable_for:
+    - 同時に進行する処理を示す
+  unsuitable_for:
+    - 順序・接続・繰り返しに意味がない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: dark-tech

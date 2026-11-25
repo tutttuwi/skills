@@ -1,0 +1,31 @@
+id: product-showcase
+name: 製品・サービス紹介
+theme: editorial
+audience: 製品を評価する利用者・導入担当者
+style:
+  information_density: low-medium
+  visual_density: high
+  tone: 魅力的
+  typography: large
+  text_amount: 価値を実際の利用場面で説明
+narrative:
+  - 利用者の課題
+  - 価値
+  - 画面・実物
+  - 使用シナリオ
+  - 次の行動
+preferred_layouts:
+  - H02
+  - P01
+  - P03
+  - P06
+  - P11
+  - N09
+preferred_renderers:
+  - image
+  - svg
+  - html
+  - css
+avoid:
+  - 根拠のない効果
+  - 実物と区別できない仮のUI

@@ -1,0 +1,13 @@
+/* @theme corporate */
+@import 'personal-base';
+
+section {
+  --paper: #fdfefe;
+  --ink: #162740;
+  --muted: #41546e;
+  --accent: #164784;
+  --surface: #eaf1fa;
+  --line: #b4c5db;
+  --radius: 4px;
+}
+section:not(.hero) h2 { border-bottom: 2px solid var(--accent); padding-bottom: 12px; }

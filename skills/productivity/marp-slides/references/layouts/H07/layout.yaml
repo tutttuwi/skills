@@ -1,0 +1,38 @@
+id: H07
+name: 引用
+category: highlight
+purpose:
+  - 発言と発言者・出典を一緒に示す
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: false
+    max_lines: 2
+  content:
+    required: true
+    guidance: 発言と発言者・出典を一緒に示す
+    slots: 中心メッセージと、必要に応じて補足または出典
+visual:
+  emphasis: 発言と発言者・出典を一緒に示す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 発言と発言者・出典を一緒に示す
+  unsuitable_for:
+    - 一枚で複数の論点や詳細な根拠を読む必要がある
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: minimal

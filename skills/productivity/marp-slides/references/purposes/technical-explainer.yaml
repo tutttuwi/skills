@@ -1,0 +1,35 @@
+id: technical-explainer
+name: 技術解説・ナレッジ共有
+theme: modern
+audience: ソフトウェアエンジニア
+style:
+  information_density: medium
+  visual_density: high
+  tone: professional
+  typography: large
+  text_amount: concise
+narrative:
+  - 仕組みを知る理由
+  - 概念と実例
+  - 構成
+  - 処理の流れ
+  - 注意点と要点
+preferred_layouts:
+  - K02
+  - E01
+  - F10
+  - B04
+  - E08
+  - S03
+  - N10
+preferred_renderers:
+  - mermaid
+  - d2
+  - svg
+  - html
+  - css
+avoid:
+  - 過剰装飾
+  - 長い段落
+  - 無関係な写真
+  - 文字の縮小

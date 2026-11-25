@@ -1,0 +1,38 @@
+id: B05
+name: 機能対応マトリクス
+category: comparison
+purpose:
+  - 各案で機能が使えるかを確認する
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に比較表
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 各案で機能が使えるかを確認する
+    slots: 比較見出し、対比する対象、揃えた軸と単位
+visual:
+  emphasis: 各案で機能が使えるかを確認する
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 各案で機能が使えるかを確認する
+  unsuitable_for:
+    - 意味や粒度の異なる指標をそのまま比較する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

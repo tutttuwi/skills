@@ -1,0 +1,38 @@
+id: M02
+name: SWOT分析
+category: decision
+purpose:
+  - 内部と外部の要素をプラス・マイナスに分ける
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 内部と外部の要素をプラス・マイナスに分ける
+    slots: 論点、評価基準と各項目の判断根拠
+visual:
+  emphasis: 内部と外部の要素をプラス・マイナスに分ける
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 内部と外部の要素をプラス・マイナスに分ける
+  unsuitable_for:
+    - 判断基準や項目分類の根拠が不明
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

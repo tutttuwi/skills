@@ -1,0 +1,38 @@
+id: B10
+name: 新旧アーキテクチャ比較
+category: comparison
+purpose:
+  - ノードと接続の変化を同じ縮尺で示す
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: ノードと接続の変化を同じ縮尺で示す
+    slots: 比較見出し、対比する対象、揃えた軸と単位
+visual:
+  emphasis: ノードと接続の変化を同じ縮尺で示す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - ノードと接続の変化を同じ縮尺で示す
+  unsuitable_for:
+    - 意味や粒度の異なる指標をそのまま比較する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

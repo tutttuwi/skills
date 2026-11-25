@@ -1,0 +1,32 @@
+id: data-analysis
+name: データ分析・調査報告
+theme: scientific
+audience: 分析結果を利用する担当者
+style:
+  information_density: high
+  visual_density: very-high
+  tone: 分析的
+  typography: medium-small
+  text_amount: 結果・方法・出典を併記
+narrative:
+  - 問い
+  - データ定義
+  - 主要結果
+  - 詳細分析
+  - 制約
+  - 示唆
+preferred_layouts:
+  - H08
+  - D03
+  - D05
+  - D08
+  - D11
+  - M10
+preferred_renderers:
+  - vega-lite
+  - echarts
+  - svg
+  - markdown
+avoid:
+  - 単位の省略
+  - 相関からの因果断定

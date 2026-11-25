@@ -1,0 +1,41 @@
+id: D13
+name: サンキー図
+category: data
+purpose:
+  - 経路ごとの量を線の太さで示す
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 経路ごとの量を線の太さで示す
+    slots: 対象、値、単位、必要に応じた凡例と出典
+visual:
+  emphasis: 経路ごとの量を線の太さで示す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+  - vega-lite
+  - echarts
+selection_rules:
+  suitable_for:
+    - 経路ごとの量を線の太さで示す
+  unsuitable_for:
+    - 対象、単位、値の定義を確認できない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: scientific

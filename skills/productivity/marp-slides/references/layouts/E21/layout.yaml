@@ -1,0 +1,38 @@
+id: E21
+name: 正常系・異常系
+category: engineering
+purpose:
+  - 成功とエラー時の動作を並べて説明する
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 成功とエラー時の動作を並べて説明する
+    slots: 技術要素、関係・責務、必要に応じた境界
+visual:
+  emphasis: 成功とエラー時の動作を並べて説明する
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 成功とエラー時の動作を並べて説明する
+  unsuitable_for:
+    - 技術詳細を必要としない聴衆へ価値だけを伝える
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: dark-tech

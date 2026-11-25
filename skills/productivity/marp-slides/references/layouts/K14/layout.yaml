@@ -1,0 +1,39 @@
+id: K14
+name: 数式・図解
+category: education
+purpose:
+  - 式の変数と図示された関係を対応させる
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 式の変数と図示された関係を対応させる
+    slots: 学習対象、説明、例や確認事項
+visual:
+  emphasis: 式の変数と図示された関係を対応させる
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+selection_rules:
+  suitable_for:
+    - 式の変数と図示された関係を対応させる
+  unsuitable_for:
+    - 既習者が判断に必要な結論だけを確認する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: friendly

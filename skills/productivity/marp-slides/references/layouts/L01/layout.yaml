@@ -1,0 +1,38 @@
+id: L01
+name: 左右均等2分割
+category: basic
+purpose:
+  - 同じ重みの二つの観点を並べる
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 50:50
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 同じ重みの二つの観点を並べる
+    slots: 見出しと各領域の本文または図版の対応
+visual:
+  emphasis: 同じ重みの二つの観点を並べる
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 同じ重みの二つの観点を並べる
+  unsuitable_for:
+    - 主要情報の量や関係が枠の数・大きさと合わない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

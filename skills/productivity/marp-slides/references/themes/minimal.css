@@ -1,0 +1,13 @@
+/* @theme minimal */
+@import 'personal-base';
+
+section {
+  --paper: #fff;
+  --ink: #202229;
+  --muted: #51555e;
+  --accent: #3a4c68;
+  --surface: #f4f4f5;
+  --line: #d4d4d8;
+  --radius: 2px;
+}
+section { padding: 64px; }

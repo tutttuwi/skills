@@ -1,0 +1,32 @@
+id: postmortem
+name: 障害報告・ポストモーテム
+theme: monochrome
+audience: 運用・開発・プロジェクト関係者
+style:
+  information_density: high
+  visual_density: medium
+  tone: 客観的
+  typography: medium
+  text_amount: 事実と推定を区別した短文
+narrative:
+  - 概要と影響
+  - 時系列
+  - 原因と寄与要因
+  - 復旧対応
+  - 再発防止
+preferred_layouts:
+  - N08
+  - D18
+  - T02
+  - M09
+  - M07
+  - N09
+preferred_renderers:
+  - markdown
+  - html
+  - css
+  - mermaid
+  - svg
+avoid:
+  - 個人への帰責
+  - 事実と仮説の混同

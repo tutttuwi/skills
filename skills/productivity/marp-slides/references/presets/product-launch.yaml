@@ -1,0 +1,18 @@
+id: product-launch
+name: 製品・サービス発表
+pages:
+  - role: 価値
+    layout: H02
+    emphasis: 製品の実物または実画面と短い結論
+  - role: 利用場面
+    layout: P11
+    emphasis: 誰が何を解決するか
+  - role: デモ
+    layout: P03
+    emphasis: 注目する操作を絞り、必要な箇所を指し示す
+  - role: 根拠
+    layout: B01
+    emphasis: 変更前後や、出典を示せる成果
+  - role: 次の行動
+    layout: N09
+    emphasis: 提供時期、利用開始、問い合わせのいずれか

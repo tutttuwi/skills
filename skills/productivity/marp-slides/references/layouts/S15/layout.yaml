@@ -1,0 +1,39 @@
+id: S15
+name: 分解・展開
+category: structure
+purpose:
+  - 一つの対象を構成要素へ分解する
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 一つの対象を構成要素へ分解する
+    slots: 構成要素のラベルと関係を示す線・領域
+visual:
+  emphasis: 一つの対象を構成要素へ分解する
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+selection_rules:
+  suitable_for:
+    - 一つの対象を構成要素へ分解する
+  unsuitable_for:
+    - 構造より具体的な手順や実測値を伝えたい
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: hand-drawn

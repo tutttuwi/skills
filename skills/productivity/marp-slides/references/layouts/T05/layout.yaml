@@ -1,0 +1,39 @@
+id: T05
+name: ガントチャート
+category: timeline
+purpose:
+  - 期間とタスクの並行関係を示す
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 期間とタスクの並行関係を示す
+    slots: 日時・期間と対応するイベントや成果物
+visual:
+  emphasis: 期間とタスクの並行関係を示す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+selection_rules:
+  suitable_for:
+    - 期間とタスクの並行関係を示す
+  unsuitable_for:
+    - 時期や順序が不明で相互関係の説明だけが必要
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

@@ -1,0 +1,38 @@
+id: N01
+name: 課題・解決策
+category: story
+purpose:
+  - 課題と対応策を一対にする
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 課題と対応策を一対にする
+    slots: 主張とそれを支える情報を読み順に配置
+visual:
+  emphasis: 課題と対応策を一対にする
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 課題と対応策を一対にする
+  unsuitable_for:
+    - 仕様・データを検索や照合の目的で一覧化する
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

@@ -1,0 +1,31 @@
+id: consulting
+name: コンサルティング
+theme: corporate
+audience: 事業責任者・プロジェクト責任者
+style:
+  information_density: high
+  visual_density: high
+  tone: 論理的
+  typography: medium-small
+  text_amount: 要点と検証可能な根拠
+narrative:
+  - 結論
+  - 現状と論点
+  - 調査と分析
+  - 選択肢
+  - 推奨と実行計画
+preferred_layouts:
+  - N08
+  - M08
+  - B04
+  - M03
+  - D12
+  - N09
+preferred_renderers:
+  - html
+  - css
+  - vega-lite
+  - svg
+avoid:
+  - 装飾
+  - 前提や期間の欠落

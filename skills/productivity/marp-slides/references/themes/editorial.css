@@ -1,0 +1,13 @@
+/* @theme editorial */
+@import 'personal-base';
+
+section {
+  --paper: #faf5eb;
+  --ink: #2c2023;
+  --muted: #665254;
+  --accent: #8f3937;
+  --surface: #fffaf2;
+  --line: #ccbab3;
+  --radius: 0;
+}
+section { --heading-font: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif; } section h2 { border-bottom: 1px solid var(--line); padding-bottom: 12px; }

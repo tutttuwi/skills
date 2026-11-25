@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-label="道と川が交差する架空の街の地図">
+  <rect width="1280" height="720" fill="#7ba096"/>
+  <path d="M1110-80C560 60 680 330 590 500S390 734 310 790" fill="none" stroke="#6ea8c5" stroke-width="154"/>
+  <g stroke="#e0ebd9" stroke-width="23" fill="none">
+    <path d="M-40 180H1320M-40 387H1320M-40 573H1320M204-30V760M408-30V760M922-30V760M1187-30V760"/>
+    <path d="M-20 688L650-20M489 780L1280 101"/>
+  </g>
+  <path d="M202 575L410 387H661L920 181H1185" fill="none" stroke="#f5d484" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="202" cy="575" r="29" fill="#f5d484" stroke="#f5f7ed" stroke-width="9"/>
+  <circle cx="1185" cy="181" r="29" fill="#f5d484" stroke="#f5f7ed" stroke-width="9"/>
+</svg>

@@ -1,0 +1,39 @@
+id: M11
+name: 優先順位ピラミッド
+category: decision
+purpose:
+  - 重要度の階層を示す
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 重要度の階層を示す
+    slots: 論点、評価基準と各項目の判断根拠
+visual:
+  emphasis: 重要度の階層を示す
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+selection_rules:
+  suitable_for:
+    - 重要度の階層を示す
+  unsuitable_for:
+    - 判断基準や項目分類の根拠が不明
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

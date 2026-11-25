@@ -1,0 +1,13 @@
+/* @theme monochrome */
+@import 'personal-base';
+
+section {
+  --paper: #fff;
+  --ink: #171717;
+  --muted: #555;
+  --accent: #242424;
+  --surface: #f2f2f2;
+  --line: #a4a4a4;
+  --radius: 0;
+}
+section .featured { border-style: double; }

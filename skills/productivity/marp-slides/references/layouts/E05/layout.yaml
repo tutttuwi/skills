@@ -1,0 +1,40 @@
+id: E05
+name: インフラ構成
+category: engineering
+purpose:
+  - ネットワークとリソースの境界を確認する
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 見出しの下に横長の図
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: ネットワークとリソースの境界を確認する
+    slots: 技術要素、関係・責務、必要に応じた境界
+visual:
+  emphasis: ネットワークとリソースの境界を確認する
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - svg
+  - d2
+selection_rules:
+  suitable_for:
+    - ネットワークとリソースの境界を確認する
+  unsuitable_for:
+    - 技術詳細を必要としない聴衆へ価値だけを伝える
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: dark-tech

@@ -1,0 +1,39 @@
+id: H01
+name: 全面背景画像
+category: highlight
+purpose:
+  - 場面を示す画像に短いタイトルを重ねる
+layout:
+  aspect_ratio: 16:9
+  columns: 1
+  arrangement: 全面背景に見出しと補足を重ねる
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 場面を示す画像に短いタイトルを重ねる
+    slots: 中心メッセージと、必要に応じて補足または出典
+visual:
+  emphasis: 場面を示す画像に短いタイトルを重ねる
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+  - image
+selection_rules:
+  suitable_for:
+    - 場面を示す画像に短いタイトルを重ねる
+  unsuitable_for:
+    - 一枚で複数の論点や詳細な根拠を読む必要がある
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: editorial

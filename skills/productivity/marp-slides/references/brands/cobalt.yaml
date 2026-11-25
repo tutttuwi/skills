@@ -1,0 +1,24 @@
+id: cobalt
+name: コバルト × アンバー
+light:
+  paper: "#f5f8ff"
+  surface: "#ffffff"
+  ink: "#14213a"
+  muted: "#465873"
+  accent: "#174bbf"
+  secondary: "#9a360b"
+  accent_surface: "#e9f0ff"
+  line: "#cad5ea"
+  high_accent: "#112b73"
+  high_secondary: "#6d270e"
+dark:
+  paper: "#0b1325"
+  surface: "#151f36"
+  ink: "#f4f7ff"
+  muted: "#b5c3db"
+  accent: "#9dbbff"
+  secondary: "#ffbc87"
+  accent_surface: "#18284a"
+  line: "#415173"
+  high_accent: "#bcd0ff"
+  high_secondary: "#ffd1ae"

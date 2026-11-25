@@ -1,0 +1,21 @@
+id: earnings
+name: 決算・業績説明
+pages:
+  - role: 表紙
+    layout: H03
+    emphasis: 会社名、対象期間、資料名
+  - role: 業績ハイライト
+    layout: D01
+    emphasis: 主要指標と比較差。単位と比較期間を付ける
+  - role: 増減要因
+    layout: D12
+    emphasis: 期首・比較起点と期末・結果、差分の要因
+  - role: セグメント別業績
+    layout: B04
+    emphasis: 同じ指標・期間・単位で比較する
+  - role: 通期見通し
+    layout: D18
+    emphasis: 実績と見通し、前提と比較基準を明示する
+  - role: 補足
+    layout: C07
+    emphasis: 指標定義、注記、出典

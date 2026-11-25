@@ -1,0 +1,38 @@
+id: T07
+name: フェーズ分割
+category: timeline
+purpose:
+  - 各段階の目的と成果物を対応させる
+layout:
+  aspect_ratio: 16:9
+  columns: 3
+  arrangement: 見出しの下に内容を配置
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 各段階の目的と成果物を対応させる
+    slots: 日時・期間と対応するイベントや成果物
+visual:
+  emphasis: 各段階の目的と成果物を対応させる
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 各段階の目的と成果物を対応させる
+  unsuitable_for:
+    - 時期や順序が不明で相互関係の説明だけが必要
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: corporate

@@ -1,0 +1,38 @@
+id: L02
+name: 左右非均等2分割
+category: basic
+purpose:
+  - 主題を広く取り補足を隣に置く
+layout:
+  aspect_ratio: 16:9
+  columns: 2
+  arrangement: 60:40
+  padding: 56px
+  gap: 24px
+structure:
+  header:
+    type: heading
+    required: true
+    max_lines: 2
+  content:
+    required: true
+    guidance: 主題を広く取り補足を隣に置く
+    slots: 見出しと各領域の本文または図版の対応
+visual:
+  emphasis: 主題を広く取り補足を隣に置く
+  theme_aware: true
+constraints:
+  allow_overflow: false
+  min_font_size: 22px
+renderers:
+  - html
+  - css
+selection_rules:
+  suitable_for:
+    - 主題を広く取り補足を隣に置く
+  unsuitable_for:
+    - 主要情報の量や関係が枠の数・大きさと合わない
+template: slide.md
+stylesheet: ../../themes/base.css
+preview: preview.png
+preview_theme: modern

@@ -1,0 +1,30 @@
+id: technical-guide
+name: 開発・運用手順書
+theme: corporate
+audience: 開発者・運用担当者
+style:
+  information_density: high
+  visual_density: medium
+  tone: 実用的
+  typography: medium
+  text_amount: 番号付き手順と確認方法
+narrative:
+  - 目標と前提
+  - 準備
+  - 手順
+  - 確認
+  - 復旧・問い合わせ
+preferred_layouts:
+  - C06
+  - F02
+  - E11
+  - P02
+  - K10
+preferred_renderers:
+  - markdown
+  - html
+  - css
+  - mermaid
+  - image
+avoid:
+  - 失敗時の対応や確認方法の欠落
